@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-//Rutas
-import { APP-ROUTING } from './app.routes';
-
 //Servicios
+
+//Rutas
+
+import { APPROUTING } from './app.routes';
 
 //Componenentes
 import { AppComponent } from './app.component';
@@ -27,7 +28,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    APP-ROUTING
+    APPROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
