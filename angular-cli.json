@@ -22,18 +22,15 @@
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/tether/dist/css/tether.min.css"
       ],
-      "scripts": [
-        "../node_modules/jquery/dist/jquery.slim.min.js" ,        
+      "scripts": [ "../node_modules/jquery/dist/jquery.slim.min.js" ,        
         "../node_modules/tether/dist/js/tether.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-         ],
-      
-   "environmentSource": "environments/environment.ts",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"],
+      "environmentSource": "environments/environment.ts",
 "environments": {
   "dev": "environments/environment.ts",
   "prod": "environments/environment.prod.ts"
 }
-  }
+    }
   ],
   "e2e": {
     "protractor": {

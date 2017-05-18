@@ -1,10 +1,10 @@
-import { SPAPage } from './app.po';
+import { SpaPage } from './app.po';
 
 describe('spa App', function() {
-  let page: SPAPage;
+  let page: SpaPage;
 
   beforeEach(() => {
-    page = new SPAPage();
+    page = new SpaPage();
   });
 
   it('should display message saying app works', () => {
